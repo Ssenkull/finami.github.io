@@ -12,4 +12,12 @@ $(function(){
         $('.slider-date__amount').text($('.slider').val());
     });
 
+    $('.legal-info__btn').on('click', function(){
+        $('.legal-more').toggleClass('legal-more--active');
+    });
+
+    $('.legal-info__btn').on('click', function(){
+        $('.legal-info__btn').text(('Close'));
+    });
+
 });

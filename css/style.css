@@ -324,6 +324,18 @@ color: #1a1a1a;
 margin-bottom: 10px;
 }
 
+.legal-more{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #1a1a1a;
+    display: none;
+}
+
+.legal-more--active{
+    display: block;
+}
+
 .legal-info__btn{
     display: none;
     font-size: 16px;
@@ -599,6 +611,9 @@ line-height: 30px;
     .slider-btn{
         padding: 20px 90px;
     }
+    .legal-info p{
+        text-align: center;
+    }
 }
 
 @media(max-width: 590px){
@@ -623,5 +638,31 @@ line-height: 30px;
     }
     .footer-menu__list-item + .footer-menu__list-item {
         margin-left: 0px;
+    }
+    .steps h1{
+        margin-bottom: 55px;
+        font-size: 47px;
+        line-height: 52px;
+    }
+    section{
+        margin-top: 25px;
+        padding-bottom: 25px;
+        padding-top: 20px;
+    }
+    .header__bottom{
+        margin-top: 70px;
+    }
+    .header__bottom-slidecontainer{
+        margin-bottom: 20px;
+    }
+    .steps__item {
+        margin-bottom: 35px;
+    }
+    .steps__item hr {
+        margin-bottom: 15px;
+    }
+    .legal-info h1 {
+        font-size: 47px;
+        line-height: 52px;
     }
 }
