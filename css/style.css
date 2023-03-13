@@ -650,10 +650,10 @@ line-height: 30px;
         padding-top: 20px;
     }
     .header__bottom{
-        margin-top: 70px;
+        margin-top: 55px;
     }
     .header__bottom-slidecontainer{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .steps__item {
         margin-bottom: 35px;
@@ -664,5 +664,9 @@ line-height: 30px;
     .legal-info h1 {
         font-size: 47px;
         line-height: 52px;
+    }
+    .header__bottom-title {
+        font-size: 30px;
+        line-height: 42px;
     }
 }
