@@ -43,6 +43,10 @@ section {
     justify-content: space-between;
 }
 
+.logo__img{
+    width: 70px;
+}
+
 .slidecontainer{
     background: url('../images/Frame\ 57.png');
     border-radius: 20px;
@@ -650,7 +654,7 @@ line-height: 30px;
         padding-top: 20px;
     }
     .header__bottom{
-        margin-top: 55px;
+        margin-top: 15px;
     }
     .header__bottom-slidecontainer{
         margin-bottom: 10px;
@@ -668,5 +672,11 @@ line-height: 30px;
     .header__bottom-title {
         font-size: 30px;
         line-height: 42px;
+    }
+    .header__bottom-text{
+        margin-top: 0;
+    }
+    .header__bottom-img{
+        margin-bottom: 10px;
     }
 }
